@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
 #     - cron:  '6 16 * * 0'
-    - cron: '55 * * * *'
+    - cron: '05 * * * *'
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://www.instagram.com/senators/?__a=1&__d=dis | jq . > data.json
+        curl https://www.instagram.com/senators/?__a=1&__d=dis.json | jq . > data.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
