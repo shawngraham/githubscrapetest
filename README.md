@@ -19,3 +19,5 @@ You may need to update the permissions on the new repository to allow workflows 
 ![In settings -> actions -> general look for the setting that says 'Read and write permissions' under the heading 'Workflow permissions'](https://user-images.githubusercontent.com/596563/235338137-57b78eb4-a573-40c0-a77a-a132787288bf.png)
 
 sg -> updated permissions, but still fails?
+sg -> remove # in line 7 of the fetch.yaml
+sg -> but... didn't run?
