@@ -20,4 +20,4 @@ You may need to update the permissions on the new repository to allow workflows 
 
 sg -> updated permissions, but still fails?
 sg -> remove # in line 7 of the fetch.yaml
-sg -> but... didn't run?
+sg -> but... didn't run? ah, that's because default cron is sunday at 6 pm.
