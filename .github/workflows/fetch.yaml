@@ -1,4 +1,4 @@
-name: Scrape latest data
+name: Scrape latest data and maybe it works on instagram
 
 on:
   push:
